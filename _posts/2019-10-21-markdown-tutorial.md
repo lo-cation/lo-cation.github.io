@@ -6,11 +6,70 @@ tags: Markdown
 ---
 
 ## What is Markdown
-
+Markdown is a lightweight markup language with plain-text-formatting syntax which is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
 
 ## Basic Syntax
-[Markdown Guide](https://www.markdownguide.org/basic-syntax/) lists basic syntax of markdown like _Headings_, _Links_, _Images_, _Tables_ and so on.
-Refer to the website for more details.
+### Title  
+H1 :`# Header 1`  
+H2 :`## Header 2`  
+H3 :`### Header 3`  
+H4 :`#### Header 4`  
+H5 :`##### Header 5`  
+H6 :`###### Header 6`  
+### Font Style  
+Link :[Title](URL) `[Title](URL)`  
+Bold :**Bold** `**Bold**`  
+Italics :*Italics* `*Italics*`  
+Code Line :~~text~~ `~~text~~`  
+### List  
+* List1
+* List2
+* List3
+
+```
+* List1
+* List2
+* List3
+```
+### Others  
+Escape Character: \  
+New Line: Put at least two space before \n in plain text  
+Code in Line : Use \`\` to quote the code `print 'Hello World'`
+
+## Extended Syntax  
+### Task Lists
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+```
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+```
+### Fenced Code Blocks  
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+### Table  
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
+```
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+```
+
+For more basic and extended syntax, please refer to [Markdown Guide](https://www.markdownguide.org/) for more details.
 
 ## Formulation Syntax
 While markdown offers a convenient way to edit text, it is not good at display equatioans and formulations by itself.
