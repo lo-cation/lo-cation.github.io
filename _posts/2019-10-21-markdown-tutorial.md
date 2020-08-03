@@ -31,6 +31,11 @@ Code Line :~~text~~ `~~text~~`
 * List2
 * List3
 ```
+### Images
+![Image Title](/images/posts/markdown/img1.jpg)
+```
+![Image Title](/images/posts/markdown/img1.jpg)
+```
 ### Others  
 Escape Character: \  
 New Line: Put at least two space before \n in plain text  
