@@ -32,9 +32,9 @@ Code Line :~~text~~ `~~text~~`
 * List3
 ```
 ### Images
-![Image Title](/images/posts/markdown/img1.jpg)
+![Alternative text when images is not available](/images/posts/markdown/img1.jpg)
 ```
-![Image Title](/images/posts/markdown/img1.jpg)
+![Alternative text when images is not available](/images/posts/markdown/img1.jpg)
 ```
 ### Others  
 Escape Character: \  
