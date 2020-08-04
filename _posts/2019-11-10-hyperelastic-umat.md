@@ -2,7 +2,7 @@
 layout: post
 title:  How to write a UMAT for hyperelastic
 date:   2019-11-10 22:00:00 +0800
-tags: ABAQUS
+tags: FEM
 ---
 ABAQUS provided powerful API like UMAT/UHYPER for users to define constitutive equations by theirselves.
 UHYPER is designed for user-defined hyperelastic materials in particular.
