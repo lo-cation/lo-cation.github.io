@@ -7,7 +7,7 @@ tags: VPN
 Here is a tutorial of setting up shadowsocks service on VPS with Ubuntu operation system.
 
 ## Prerequisites
-1. A VPS. There are lots of VPS providers, two of them are recommended: [Vultr](https://www.vultr.com/) and [BandwagonHost](https://bwh88.net/)
+1. A VPS.
 2. Install Ubuntu 17.10 or above on the VPS
 
 ## Install Shadowsocks-libev Server
