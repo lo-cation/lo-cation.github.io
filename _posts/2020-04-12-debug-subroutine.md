@@ -2,7 +2,7 @@
 layout: post
 title: Debug user subroutines of ABAQUS
 date:   2020-04-12 22:00:00 +0800
-tags: ABAQUS
+tags: FEM
 ---
 ABAQUS provides powerful interfaces to users to customize their own materials or elements. While it is hard to debug the user subroutines line by line under environment of ABAQUS and make the coding experience unpleasant. Here is a tutorial to how to debug the subroutines.
 
