@@ -7,7 +7,7 @@ title: 关于我
 
 <h2> 我的博客 </h2>
 
-博客主要用来记录一些在力学方向尤其是计算力学上的一些新的体会，欢迎大家交流沟通
+博客主要用来记录一些在力学方向尤其是计算力学上的一些心得体会，欢迎大家交流沟通
 
 <h3> 博客模板 </h3>
 博客模板采用潘柏信的个人站模板，如有需要请访问潘柏信的<a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>Github</a>.
