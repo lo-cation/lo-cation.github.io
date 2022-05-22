@@ -107,3 +107,5 @@ The corresponding HTML embed code is:
 
 ### Multi-line Rendering
 If multi-line rendering is needed, check out this [answer](https://stackoverflow.com/questions/35498525/latex-rendering-in-readme-md-on-github/41341966#41341966)
+
+$$ \frac{-b\pm\sqrt{b^2-4ac}}{2a} $$
