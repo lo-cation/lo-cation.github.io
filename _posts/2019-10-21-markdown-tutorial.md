@@ -2,7 +2,7 @@
 layout: post
 title: Markdown Tutorial
 date: 2019-10-22 14:26:00 +0800
-tags: Markdown    
+tags: IT    
 ---
 
 ## What is Markdown
