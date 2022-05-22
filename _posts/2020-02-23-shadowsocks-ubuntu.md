@@ -2,7 +2,7 @@
 layout: post
 title:  Set up shadowsocks service on ubuntu
 date:   2020-02-23 10:00:00 +0800
-tags: VPN
+tags: IT
 ---
 Here is a tutorial of setting up shadowsocks service on VPS with Ubuntu operation system.
 
