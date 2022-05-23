@@ -74,9 +74,13 @@ Code in Line : Use \`\` to quote the code `print 'Hello World'`
 | Paragraph   | Text        | And more      |
 ```
 
-For more basic and extended syntax, please refer to [Markdown Guide](https://www.markdownguide.org/) for more details.
+For more basic and extended syntax, please refer to [Markdown Guide](https://www.markdownguide.org/) for more details. Use the $ and $$ delimiters to insert math expressions.
 
 ## Formulation Syntax
+**UPDATE 2022/05/23**
+Github supports math expressions in TeX and LaTex style syntax now by rendering those equations with MathJax library.
+
+**Followings are out-of-date**
 While markdown offers a convenient way to edit text, it is not good at display equatioans and formulations by itself.
 To type formulation in markdown, the basic idea is taking advantage of inline HTML which is supported in markdown.
 Inline HTML can be used for both simple inline eqations and, with external tool, more complex rendering.
@@ -107,5 +111,3 @@ The corresponding HTML embed code is:
 
 ### Multi-line Rendering
 If multi-line rendering is needed, check out this [answer](https://stackoverflow.com/questions/35498525/latex-rendering-in-readme-md-on-github/41341966#41341966)
-
-$$ \frac{-b\pm\sqrt{b^2-4ac}}{2a} $$
