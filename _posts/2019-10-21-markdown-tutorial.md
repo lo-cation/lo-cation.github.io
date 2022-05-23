@@ -74,13 +74,13 @@ Code in Line : Use \`\` to quote the code `print 'Hello World'`
 | Paragraph   | Text        | And more      |
 ```
 
-For more basic and extended syntax, please refer to [Markdown Guide](https://www.markdownguide.org/) for more details. Use the $ and $$ delimiters to insert math expressions.
+For more basic and extended syntax, please refer to [Markdown Guide](https://www.markdownguide.org/) for more details.
 
 ## Formulation Syntax
-**UPDATE 2022/05/23**
-Github supports math expressions in TeX and LaTex style syntax now by rendering those equations with MathJax library.
+**UPDATE 2022/05/23**  
+Github supports math expressions in TeX and LaTex style syntax now by rendering those equations with MathJax library. Use the $ and $$ delimiters to insert math expressions.
 
-**Followings are out-of-date**
+**Followings are out-of-date**  
 While markdown offers a convenient way to edit text, it is not good at display equatioans and formulations by itself.
 To type formulation in markdown, the basic idea is taking advantage of inline HTML which is supported in markdown.
 Inline HTML can be used for both simple inline eqations and, with external tool, more complex rendering.
