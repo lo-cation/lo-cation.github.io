@@ -8,8 +8,10 @@ layout: default
 
 <script>
 MathJax = {
+  loader: {load: ['[tex]/textmacros']},
   tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    packages: {'[+]': ['textmacros']}
   }
 };
 </script>
