@@ -76,3 +76,6 @@ paginate: 20
 paginate_path: "page/:num/"
 
 
+## Mathjax
+mathjax: true
+mathjax_autoNumber: true
