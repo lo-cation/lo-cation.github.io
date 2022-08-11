@@ -97,7 +97,7 @@ $$
 \bf{g}^i \cdot \bf{g}^j = g^{ik} \bf{g}_k \cdot \bf{g}^j = g^{ik} \delta_k^j = g^{ij}
 $$
 
-同理，协变基矢量 $\bf{g}_i$ 可以对逆变基矢量 $\bf{g}^j$ 分解：
+同理，协变基矢量 $$\bf{g}_i$$ 可以对逆变基矢量 $$\bf{g}^j$$ 分解：
 
 $$
 \bf{g}_i = g_{ij} \bf{g}^j
