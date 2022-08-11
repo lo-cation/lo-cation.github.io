@@ -7,7 +7,7 @@ tags: 学习
 
 ## 平面内的斜角直线坐标系
 ### 协变基矢量
-本部分考虑平面问题。平面中可以选出任意一组不共线的矢量 $$\bf{g}_{\alpha}$$ 作为参考矢量，则任意矢量 $$\bf{P}$$ 可以表示为：
+本部分考虑平面问题。平面中可以选出任意一组不共线的矢量 $$\bf{g}_\alpha$$ 作为参考矢量，则任意矢量 $$\bf{P}$$ 可以表示为：
 
 $$
 \bf{P} = P^\alpha\bf{g}_\alpha
@@ -16,16 +16,19 @@ $$
 称参考矢量 $$\bf{g}^\alpha$$ 为**协变基矢量(covariant basis)**。
 
 ### 逆变基矢量
-在同一平面内，存在唯一一组参考矢量 $\bm{g}^\beta (\beta=1,2)$ 满足对偶关系：
-$$
-\bm{g}^\beta \cdot \bm{g}_\alpha = \delta_{\alpha}^{\beta}
-$$
-式中 $\delta_{\alpha}^{\beta}$ 为Kronecker $\delta_{\alpha}^{\beta}$。当 $\alpha=\beta$ 时， $\delta_{\alpha}^{\beta}=1$，否则 $\delta_{\alpha}^{\beta}=0$。
-并称参考矢量 $\bm{g}^\beta$ 为**逆变基矢量(contravariant basis)**。
+在同一平面内，存在唯一一组参考矢量 $$\bf{g}^\beta (\beta=1,2)$$ 满足对偶关系：
 
-记 $\varphi = <\bm{g}_1,\bm{g}_2>$，则
 $$
-|\bm{g}^1|=\frac{1}{|\bm{g}_1|sin(\varphi)}, \quad |\bm{g}^2|=\frac{1}{|\bm{g}_2|sin(\varphi)}
+\bf{g}^\beta \cdot \bf{g}_\alpha = \delta_{\alpha}^{\beta}
+$$
+
+式中 $$\delta_{\alpha}^{\beta}$$ 为Kronecker $$\delta_{\alpha}^{\beta}$$ 。当 $$\alpha=\beta$$ 时， $$\delta_{\alpha}^{\beta}=1$$ ，否则 $$\delta_{\alpha}^{\beta}=0$$ 。
+并称参考矢量 $$\bf{g}^\beta$$ 为**逆变基矢量(contravariant basis)**。
+
+记 $$\varphi = <\bf{g}_1,\bf{g}_2>$$ ，则
+
+$$
+|\bf{g}^1|=\frac{1}{|\bf{g}_1|sin(\varphi)}, \quad |\bf{g}^2|=\frac{1}{|\bf{g}_2|sin(\varphi)}
 $$
 
 ### 矢量的分量
