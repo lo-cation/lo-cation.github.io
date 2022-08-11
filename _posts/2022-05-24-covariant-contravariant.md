@@ -126,7 +126,7 @@ $$
 \delta_i^j = \bf{g}_i \cdot \bf{g}^j = g_{ik} \bf{g}^k \cdot \bf{g}^j = g_{ik} g^{kj}
 $$
 
-即由 $$g_{ij}$ 与 $$g^{ij}$ 各自构成的矩阵互逆:
+即由 $$g_{ij}$$ 与 $$g^{ij}$$ 各自构成的矩阵互逆:
 
 $$
 [g^{ij}] = [g_{ij}]^{-1}
