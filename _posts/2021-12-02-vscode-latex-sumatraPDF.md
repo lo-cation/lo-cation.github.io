@@ -50,10 +50,6 @@ Installation package can be downloaded from the [Official website](https://www.s
             "-forward-search",
             "%TEX%",
             "%LINE%",
-            "-reuse-instance",
-            // inverse search
-            "-inverse-search",
-            "\"$VSCODEPATH\\Code.exe\" -r -g \"%f:%l\"", // Change path to the installation path of vscode
             "%PDF%"
         ],
  
@@ -173,4 +169,8 @@ Installation package can be downloaded from the [Official website](https://www.s
 3. Remeber to replace the `VSCODEPATH` and `SUMAPTAPATH` in the above code.
 4. `Ctrl+Alt+B` to compile latex project.
 5. For forward search, place the cursor before the word to be searched in tex file and use shortcut `Ctrl+Shift+J`
-6. For inverse search, open SumatraPDF first, then choose external preview from GUI of vscode. Double-click the word to be searched in SumatraPDF.
+6. Inverse search is set up in SumatraPFD. Add following command in advanced options of SumatraPDF. After configration, open SumatraPDF first, then choose external preview from GUI of vscode. Double-click the word to be searched in SumatraPDF.
+```
+InverseSearchCmdLine = "$VSCODEPATH\Code.exe"  -r -g "%f:%l"
+EnableTeXEnhancements = true
+```
